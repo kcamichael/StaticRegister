@@ -1,0 +1,191 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Arial", sans-serif
+}
+
+nav {
+    background-color: slategray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#brand {
+    float: left;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+#home {
+    margin-top: 30px;
+    position: relative;
+    left: -8px;
+    width: 100 vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: url(https://images.unsplash.com/photo-1635272024672-aaf4810e2f47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80) no-repeat;
+    background-size: cover;
+}
+
+.header-tag {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+h3.header-tag{
+    margin-top: -20px;
+    font-size: -18pt;
+}
+
+#placeholder0 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 18em;
+    padding-top: 10px;
+}
+
+#placeholder1 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 18em;
+    padding-top: 10px;
+}
+
+#placeholder2 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 18em;
+    padding-top: 10px;
+}
+
+#basketball-picture {
+    width: vw;
+    float: left;
+}
+
+#basketball-content {
+    width: 40vw;
+    float: right;
+    text-align: justify;
+}
+
+#Basketball {
+    margin-top: 30px;
+    padding-bottom:2em;
+    display: inline-block;
+    width: 30%;
+    float: right;
+    padding-right: 6px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+}
+
+#Baseball {
+    margin-top: 30px;
+    margin-right: 70px;
+    padding-bottom:2em;
+    display: inline-block;
+    width: 30%;
+    float: left;
+    padding-left: 6px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main {
+    justify-content: center;
+}
+
+#Football{
+    margin-top: 30px;
+    padding-bottom:2em;
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+#popular {
+    margin-top: 30px;
+    padding-bottom:2em;
+    display: inline-block;
+    width: 45%;
+    float: right;
+    padding-right: 6px;
+    justify-content: center;
+    text-align: center;
+}
+
+#promos {
+    margin-top: 30px;
+    padding-bottom:2em;
+    display: inline-block;
+    width: 45%;
+    float: lefts;
+    padding-left: 6px;
+    justify-content: center;
+    text-align: center;
+}
+
+.random {
+    border: 10px rgb(247, 51, 51);
+    color: black;
+}
+
+.box0 {
+    float: left;
+    width: 48%;
+    height: 120px;
+    background-color: black;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.box1 {
+    float: right;
+    width: 48%;
+    height: 120px;
+    background-color: black;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+footer {
+    display: inline-block;
+    background-color: rgb(162, 162, 162);
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+}
